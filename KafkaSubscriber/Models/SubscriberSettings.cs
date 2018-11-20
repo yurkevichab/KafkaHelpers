@@ -10,6 +10,6 @@ namespace KafkaSubscriber.Models
         public string KafkaGroupId { get; set; }
         public AutoOffsetReset AutoOffsetReset { get; set; }
         public CancellationToken SubscriberCancellationToken { get; set; } = default(CancellationToken);
-        public string KafkaServers { get; set; } = "sb-kaffka1.dc.wildberries.ru:9092, sb-kaffka2.dc.wildberries.ru: 9092, sb-kaffka3.dc.wildberries.ru:9092";
+        public string KafkaServers { get; set; } = "";
     }
 }
